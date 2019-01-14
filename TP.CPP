@@ -7,6 +7,7 @@ int x=0,y=0,r=2,col=1,yc=0,xc=getmaxx();
 int ctr=0,c=1;
 while(!kbhit())
 {
+outtextxy(350,0,"Made By saurabh");
 
 if(c==1)
 {
@@ -14,7 +15,7 @@ x=x+10;
 y=y+10;
 setcolor(col++);
 circle(x,y,r);
-outtextxy(x,y,"hi");
+outtextxy(x,y,"Saurabh");
 r=r+5;
 ctr++;
 
@@ -35,6 +36,7 @@ xc=xc-10;
 yc=yc+10;
 setcolor(col++);
 circle(xc,yc,r);
+outtextxy(xc,yc,"Saurabh");
 r=r+5;
 ctr++;
 
